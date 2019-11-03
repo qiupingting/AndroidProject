@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Persons>
+    <person age="23" sex="男" >李磊</person>
+    <person age="22" sex="女" >韩红</person>
+    <person age="220" sex="男" >李雷</person>
+</Persons>

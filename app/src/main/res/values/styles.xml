@@ -1,0 +1,40 @@
+<resources>
+
+    <!-- Base application theme_ -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">//NoActionBar隐藏标题栏
+        <!-- Customize your theme here_ -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!--Toolbar-->
+    <style name="Theme.ToolBar.Menu" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- 设置-弹窗的背景-颜色-->
+        <item name="android:colorBackground">@color/nb_theme_background</item>
+        <!-- 字体的颜色-->
+        <item name="android:textColor">@color/nb_text_default</item>
+        <!-- 字体大小-->
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center_vertical</item>
+        <!-- 用于替换菜单的三个小白点，换成自已的图片-->
+        <item name="actionOverflowButtonStyle">@style/ActionButton.Overflow.Menu</item>
+        <!--用于控制menu弹出的位置，位于toolbar的下面，而不是上面-->
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+        <!-- 用于修改item默认的分割线-->
+        <item name="android:dropDownListViewStyle">@style/dropDownStyle</item>
+        <item name="dropDownListViewStyle">@style/dropDownStyle</item>
+    </style>
+    <!--用于修改popmenu的分割线-->
+    <style name="dropDownStyle" parent="android:style/Widget.Holo.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selector_common_bg</item>
+        <item name="android:divider">@color/nb_divider_common</item>
+        <item name="android:dividerHeight">@dimen/nb_divider_line</item>
+    </style>
+    <style name="ActionButton.Overflow.Menu" parent="android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow</item>
+    </style>
+
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+    </style>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Common -->
+    <!--    <dimen name="nb_divider_line">1px</dimen>
+        <dimen name="nb_divider_small">4dp</dimen>
+        <dimen name="nb_divider_normal">8dp</dimen>
+        <dimen name="nb_divider_large">16dp</dimen>
+        <dimen name="nb_divider_xlarge">24dp</dimen>-->
+
+    <dimen name="nb_padding_small">4dp</dimen>
+    <dimen name="nb_padding_normal">8dp</dimen>
+    <dimen name="nb_padding_large">16dp</dimen>
+    <dimen name="nb_padding_xlarge">24dp</dimen>
+
+    <dimen name="nb_margin_small">4dp</dimen>
+    <dimen name="nb_margin_normal">8dp</dimen>
+    <dimen name="nb_margin_large">16dp</dimen>
+    <dimen name="nb_margin_xlarge">24dp</dimen>
+
+    <!---->
+    <dimen name="nb_divider_line">0.5dp</dimen>
+    '
+    <!--text-->
+    <!--二级标题-->
+    <dimen name="nb_text_large">18sp</dimen>
+
+    <dimen name="nb_text_normal">16sp</dimen>
+    <!--小标签-->
+    <dimen name="nb_text_small">12sp</dimen>
+
+
+    <!--书籍的封面-->
+    <dimen name="nb_book_cover_width">45dp</dimen>
+    <dimen name="nb_book_cover_height">60dp</dimen>
+
+    <!--read-->
+    <dimen name="nb_read_text_top">16sp</dimen>
+    <dimen name="nb_read_text_bottom">12dp</dimen>
+
+    <!--read setting-->
+    <dimen name="nb_read_setting_divider">20dp</dimen>
+    <dimen name="nb_read_setting_btn_height">35dp</dimen>
+</resources>
